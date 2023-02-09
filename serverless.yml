@@ -14,4 +14,4 @@ functions:
     handler: dist/app.init
     events:
       - http: ANY /
-      - http: 'ANY {proxy+}'
+      - http: 'ANY /{proxy+}'
